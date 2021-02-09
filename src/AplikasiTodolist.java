@@ -4,7 +4,7 @@ public class AplikasiTodolist {
     public static String[] model = new String[10];
 
     public static void main(String[] args) {
-
+        testshowTodoList();
 
 
     }
@@ -20,9 +20,17 @@ public class AplikasiTodolist {
             var no = i + 1;
             // jika data null tidak di tampilkan
             if (todo != null){
-                System.out.println(no +"."+todo);
+                System.out.println(no +". "+todo);
             }
         }
+    }
+    // uji test
+    public static void testshowTodoList(){
+        model[0] = "Belajar todolist";
+        model[1] = "Belajar todolist dari youtube";
+        model[2] = "Belajar todolist dari IDEA";
+        showTodoList();
+
     }
     /**
      * menambahkan Todo ke list
