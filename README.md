@@ -5,11 +5,11 @@
 - [x] Membuat Model
 - [ ] Menentukan Business Logic
 - [ ] Menentukan View
-- [ ] Menampilkan TodoList
+- [ ] Menampilkan TodoList _logic_
 - [ ] Test Menampilkan TodoList
-- [ ] Menambah TodoList
+- [ ] Menambah TodoList _logic_
 - [ ] Test Menambah TodoList
-- [ ] Menghapus TodoList
+- [ ] Menghapus TodoList _logic_
 - [ ] Test Menghapus TodoList
 - [ ] Input Data
 - [ ] View Menampilkan TodoList
