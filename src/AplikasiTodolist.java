@@ -13,7 +13,16 @@ public class AplikasiTodolist {
      * menampilkan todo list
      */
     public static void showTodoList(){
-
+        for (var i = 0; i < model.length; i++){
+            // ambil data dari String array
+            String todo = model[i];
+            // ini agar di tambah dari satu, jadi di array index 0
+            var no = i + 1;
+            // jika data null tidak di tampilkan
+            if (todo != null){
+                System.out.println(no +"."+todo);
+            }
+        }
     }
     /**
      * menambahkan Todo ke list
