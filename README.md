@@ -1,0 +1,21 @@
+### Aplikasi TodoList
+
+- [x] Membuat project / 🤟_initial commit_
+- [x] Membuat Main Class 
+- [ ] Membuat Model
+- [ ] Menentukan Business Logic
+- [ ] Menentukan View
+- [ ] Menampilkan TodoList
+- [ ] Test Menampilkan TodoList
+- [ ] Menambah TodoList
+- [ ] Test Menambah TodoList
+- [ ] Menghapus TodoList
+- [ ] Test Menghapus TodoList
+- [ ] Input Data
+- [ ] View Menampilkan TodoList
+- [ ] Test View Menampilkan TodoList
+- [ ] View Menambah TodoList
+- [ ] Test View Menambah TodoList
+- [ ] View Menghapus TodoList
+- [ ] Test View Menghapus TodoList
+- [ ] Test Seluruh Aplikasi TodoList
