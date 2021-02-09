@@ -4,8 +4,7 @@ public class AplikasiTodolist {
     public static String[] model = new String[10];
 
     public static void main(String[] args) {
-        testAddTodoList();
-
+        testRemoveTodoList();
 
     }
 
@@ -94,10 +93,34 @@ public class AplikasiTodolist {
             // jika data null berarti tidak valid juga
             return false;
         }else {
-            model[number - 1] = null;
+            // logic untuk geser yang telah di hapus
+            for (int i = (number - 1); i < model.length; i++) {
+                // cek agar index tidak indexoutofbound
+                if (i == model.length - 1) {
+                    model[i] = null; // bukan data yang di ujung
+                } else {
+                    model[i] = model[i+1];  // i yang sekarang ke index yang selanjutnya
+                }
+            }
             return true; // maka ia bisa di hapus
         }
+    }
+    // test menghapus
+    public static void testRemoveTodoList(){
+        addTodoList("Satu");
+        addTodoList("Dua");
+        addTodoList("Tiga");
+        addTodoList("Empat");
+        addTodoList("Lima");
+        addTodoList("Enam");
 
+        var reulst = removeTodoList(20);
+        System.out.println(reulst);
+
+        reulst = removeTodoList(2);
+        System.out.println(reulst);
+
+        showTodoList();
 
     }
 
