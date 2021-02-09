@@ -8,7 +8,7 @@
 - [x] Menampilkan TodoList _logic_
 - [x] Test Menampilkan TodoList
 - [x] Menambah TodoList _logic_
-- [ ] Test Menambah TodoList
+- [x] Test Menambah TodoList
 - [ ] Menghapus TodoList _logic_
 - [ ] Test Menghapus TodoList
 - [ ] Input Data

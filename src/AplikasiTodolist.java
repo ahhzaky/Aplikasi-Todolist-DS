@@ -4,7 +4,7 @@ public class AplikasiTodolist {
     public static String[] model = new String[10];
 
     public static void main(String[] args) {
-        testshowTodoList();
+        testAddTodoList();
 
 
     }
@@ -69,6 +69,16 @@ public class AplikasiTodolist {
                 break; // selesai jika sudah dimasukkan ke yang null
             }
         }
+    }
+    // test add Todolist
+    public static void testAddTodoList(){
+        addTodoList("Satu");
+        addTodoList("Dua");
+        addTodoList("tiga");
+        for (int i = 0; i < 25; i++) {
+            addTodoList("Contoh todo ke: " + i);
+        }
+        showTodoList();
     }
 
     /**
