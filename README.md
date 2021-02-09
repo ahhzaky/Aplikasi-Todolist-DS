@@ -7,7 +7,7 @@
 - [x] Menentukan View {show, add, remove}todolist _framework Todolist_
 - [x] Menampilkan TodoList _logic_
 - [x] Test Menampilkan TodoList
-- [ ] Menambah TodoList _logic_
+- [x] Menambah TodoList _logic_
 - [ ] Test Menambah TodoList
 - [ ] Menghapus TodoList _logic_
 - [ ] Test Menghapus TodoList
