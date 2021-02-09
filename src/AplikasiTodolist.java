@@ -84,7 +84,20 @@ public class AplikasiTodolist {
     /**
      * hapus todo dari list
      */
-    public static void removeTodoList(){
+    public static boolean removeTodoList(Integer number){
+        // dilakukan pengecekan ka ada input number salah;
+        // kenapa -1 karena tadi diinput dari 1 dan dibaca oleh index adalh 0
+        if (number - 1 >= model.length){
+            return false; // ini gagal dari kapasitas
+
+        }else if (model[number - 1] == null){
+            // jika data null berarti tidak valid juga
+            return false;
+        }else {
+            model[number - 1] = null;
+            return true; // maka ia bisa di hapus
+        }
+
 
     }
 
