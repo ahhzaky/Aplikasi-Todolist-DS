@@ -4,7 +4,7 @@
 - [x] Membuat Main Class 
 - [x] Membuat Model
 - [x] Menentukan Business Logic
-- [ ] Menentukan View
+- [x] Menentukan View {show, add, remove}todolist _framework Todolist_
 - [ ] Menampilkan TodoList _logic_
 - [ ] Test Menampilkan TodoList
 - [ ] Menambah TodoList _logic_
