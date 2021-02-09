@@ -2,7 +2,7 @@
 
 - [x] Membuat project / 🤟_initial commit_
 - [x] Membuat Main Class 
-- [ ] Membuat Model
+- [x] Membuat Model
 - [ ] Menentukan Business Logic
 - [ ] Menentukan View
 - [ ] Menampilkan TodoList
