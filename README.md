@@ -3,7 +3,7 @@
 - [x] Membuat project / 🤟_initial commit_
 - [x] Membuat Main Class 
 - [x] Membuat Model
-- [ ] Menentukan Business Logic
+- [x] Menentukan Business Logic
 - [ ] Menentukan View
 - [ ] Menampilkan TodoList _logic_
 - [ ] Test Menampilkan TodoList

@@ -8,4 +8,24 @@ public class AplikasiTodolist {
 
 
     }
+
+    /**
+     * menampilkan todo list
+     */
+    public static void showTodoList(){
+
+    }
+    /**
+     * menambahkan Todo ke list
+     */
+    public static void addTodoList(){
+
+    }
+
+    /**
+     * hapus todo dari list
+     */
+    public static void removeTodoList(){
+
+    }
 }
