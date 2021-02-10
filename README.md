@@ -14,7 +14,7 @@
 - [x] Input Data / untuk _commandline_
 - [x] View Menampilkan TodoList
 - [x] Test View Menampilkan TodoList
-- [ ] View Menambah TodoList
+- [x] View Menambah TodoList
 - [ ] Test View Menambah TodoList
 - [ ] View Menghapus TodoList
 - [ ] Test View Menghapus TodoList

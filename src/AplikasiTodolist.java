@@ -182,7 +182,15 @@ public class AplikasiTodolist {
 
     // menampilkan view tambah todolist
     public static void viewAddTodoList(){
+        System.out.println("MENAMBAH TODOLIST");
 
+        var todo = input("Todo (x Jika Batal)");
+
+        if (todo.equals("x")){
+            // batal
+        } else {
+            addTodoList(todo);
+        }
     }
 
     // menampilkan view hapus todolist
