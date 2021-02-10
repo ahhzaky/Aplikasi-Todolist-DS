@@ -7,7 +7,7 @@ public class AplikasiTodolist {
     public static java.util.Scanner scanner = new java.util.Scanner(System.in);
 
     public static void main(String[] args) {
-        testviewShowTodoList();
+        testviewAddTodoList();
 
     }
 
@@ -191,6 +191,16 @@ public class AplikasiTodolist {
         } else {
             addTodoList(todo);
         }
+    }
+
+    // test viewAddTodoList()
+    public static void testviewAddTodoList(){
+        addTodoList("Satu");
+        addTodoList("Dua");
+
+        viewAddTodoList();
+
+        showTodoList();
     }
 
     // menampilkan view hapus todolist
