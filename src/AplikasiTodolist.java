@@ -3,8 +3,11 @@ public class AplikasiTodolist {
     // default 10 = ada 10 list nantinya
     public static String[] model = new String[10];
 
+    // varible scanner nanti diambil dari System.in
+    public static java.util.Scanner scanner = new java.util.Scanner(System.in);
+
     public static void main(String[] args) {
-        testRemoveTodoList();
+        testInput();
 
     }
 
@@ -122,6 +125,24 @@ public class AplikasiTodolist {
 
         showTodoList();
 
+    }
+
+
+
+    // input dari user
+    public static String input(String info){
+        System.out.print(info + " : ");
+        String data = scanner.nextLine();
+        return data;
+    }
+
+    // test input
+    public static void testInput(){
+        var name = input("Nama");
+        System.out.println("Hi " + name);
+
+        var channel = input("Channel");
+        System.out.println(channel);
     }
 
     // menampilkan view todolist

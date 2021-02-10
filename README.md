@@ -11,7 +11,7 @@
 - [x] Test Menambah TodoList
 - [x] Menghapus TodoList _logic_
 - [x] Test Menghapus TodoList
-- [ ] Input Data
+- [x] Input Data / untuk _commandline_
 - [ ] View Menampilkan TodoList
 - [ ] Test View Menampilkan TodoList
 - [ ] View Menambah TodoList
