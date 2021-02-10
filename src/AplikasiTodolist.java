@@ -1,15 +1,13 @@
 public class AplikasiTodolist {
 
-    // default 10 = ada 10 list nantinya
     public static String[] model = new String[10];
 
-    // varible scanner nanti diambil dari System.in
     public static java.util.Scanner scanner = new java.util.Scanner(System.in);
 
     public static void main(String[] args) {
         viewShowTodoList();
-
     }
+
 
     /**
      * menampilkan todo list
@@ -17,24 +15,15 @@ public class AplikasiTodolist {
     public static void showTodoList(){
         System.out.println("TODOLIST");
         for (var i = 0; i < model.length; i++){
-            // ambil data dari String array
             String todo = model[i];
-            // ini agar di tambah dari satu, jadi di array index 0
             var no = i + 1;
-            // jika data null tidak di tampilkan
             if (todo != null){
                 System.out.println(no +". "+todo);
             }
         }
     }
-    // uji test
-    public static void testshowTodoList(){
-        model[0] = "Belajar todolist";
-        model[1] = "Belajar todolist dari youtube";
-        model[2] = "Belajar todolist dari IDEA";
-        showTodoList();
 
-    }
+
     /**
      * menambahkan Todo ke list
      */
@@ -49,6 +38,7 @@ public class AplikasiTodolist {
                 break;
             }
         }
+
 
         // jika penuh , kita resize ukuran array 2x lipat
         if (isFull) {
@@ -73,16 +63,7 @@ public class AplikasiTodolist {
             }
         }
     }
-    // test add Todolist
-    public static void testAddTodoList(){
-        addTodoList("Satu");
-        addTodoList("Dua");
-        addTodoList("tiga");
-        for (int i = 0; i < 25; i++) {
-            addTodoList("Contoh todo ke: " + i);
-        }
-        showTodoList();
-    }
+
 
     /**
      * hapus todo dari list
@@ -109,25 +90,6 @@ public class AplikasiTodolist {
             return true; // maka ia bisa di hapus
         }
     }
-    // test menghapus
-    public static void testRemoveTodoList(){
-        addTodoList("Satu");
-        addTodoList("Dua");
-        addTodoList("Tiga");
-        addTodoList("Empat");
-        addTodoList("Lima");
-        addTodoList("Enam");
-
-        var reulst = removeTodoList(20);
-        System.out.println(reulst);
-
-        reulst = removeTodoList(2);
-        System.out.println(reulst);
-
-        showTodoList();
-
-    }
-
 
 
     // input dari user
@@ -137,14 +99,6 @@ public class AplikasiTodolist {
         return data;
     }
 
-    // test input
-    public static void testInput(){
-        var name = input("Nama");
-        System.out.println("Hi " + name);
-
-        var channel = input("Channel");
-        System.out.println(channel);
-    }
 
     // menampilkan view todolist
     public static void viewShowTodoList(){
@@ -171,14 +125,6 @@ public class AplikasiTodolist {
         }
     }
 
-    public static void testviewShowTodoList(){
-        addTodoList("satu");
-        addTodoList("dua");
-        addTodoList("tiga");
-        addTodoList("empat roda");
-        addTodoList("lima baja");
-        viewShowTodoList();
-    }
 
     // menampilkan view tambah todolist
     public static void viewAddTodoList(){
@@ -193,15 +139,6 @@ public class AplikasiTodolist {
         }
     }
 
-    // test viewAddTodoList()
-    public static void testviewAddTodoList(){
-        addTodoList("Satu");
-        addTodoList("Dua");
-
-        viewAddTodoList();
-
-        showTodoList();
-    }
 
     // menampilkan view hapus todolist
     public static void viewRemoveTodoList(){
@@ -217,18 +154,6 @@ public class AplikasiTodolist {
                 System.out.println("Gagal menghapus todolist : " + number);
             }
         }
-    }
-
-    public static void testViewRemoveTodoList(){
-        addTodoList("Sata");
-        addTodoList("duaa");
-        addTodoList("Tiga");
-
-        showTodoList();
-
-        viewRemoveTodoList();
-
-        showTodoList();
     }
 
 }
