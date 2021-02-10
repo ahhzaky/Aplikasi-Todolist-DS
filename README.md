@@ -16,6 +16,6 @@
 - [x] Test View Menampilkan TodoList
 - [x] View Menambah TodoList
 - [x] Test View Menambah TodoList
-- [ ] View Menghapus TodoList
+- [x] View Menghapus TodoList
 - [ ] Test View Menghapus TodoList
 - [ ] Test Seluruh Aplikasi TodoList
